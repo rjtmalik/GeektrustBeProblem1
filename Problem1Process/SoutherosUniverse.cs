@@ -88,5 +88,13 @@ namespace Problem1.Process
             }
             return new string[] { };
         }
+
+        public void Reset()
+        {
+            foreach (var _kingdom in _kingdoms)
+            {
+                _kingdom.ResetAllies();
+            }
+        }
     }
 }

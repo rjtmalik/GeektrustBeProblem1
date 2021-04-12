@@ -76,5 +76,10 @@ namespace Problem1.Process
         {
             return _allies;
         }
+
+        internal void ResetAllies()
+        {
+            _allies = new Kingdom[] { };
+        }
     }
 }

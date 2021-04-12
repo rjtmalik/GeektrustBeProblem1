@@ -6,7 +6,7 @@ using System.Linq;
 namespace Problem5ProcessTests
 {
     [TestClass]
-    public class SoutherosUniverseTests
+    public class SoutherosUniverseTests : IDisposable
     {
         [TestMethod]
         public void WhenAllyNameIsInCamelCaseThenIgnoreCase()
@@ -153,6 +153,11 @@ namespace Problem5ProcessTests
 
             //Assert
             Assert.IsTrue(got.Length == 0);
+        }
+
+        public void Dispose()
+        {
+            SoutherosUniverse.Instance.Reset();
         }
     }
 }
