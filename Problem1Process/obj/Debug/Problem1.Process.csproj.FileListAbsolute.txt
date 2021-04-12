@@ -1,6 +1,0 @@
-C:\react-practice\GeektrustBeProblem1\Problem1Process\bin\Debug\Country.xml
-C:\react-practice\GeektrustBeProblem1\Problem1Process\bin\Debug\Problem1Process.dll
-C:\react-practice\GeektrustBeProblem1\Problem1Process\bin\Debug\Problem1Process.pdb
-C:\react-practice\GeektrustBeProblem1\Problem1Process\obj\Debug\Problem1.Process.csproj.CoreCompileInputs.cache
-C:\react-practice\GeektrustBeProblem1\Problem1Process\obj\Debug\Problem1Process.dll
-C:\react-practice\GeektrustBeProblem1\Problem1Process\obj\Debug\Problem1Process.pdb
