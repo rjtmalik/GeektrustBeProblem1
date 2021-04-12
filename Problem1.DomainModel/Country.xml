@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Countries>
+  <Country>
+    <Name>SPACE</Name>
+    <Embelem>GORILLA</Embelem>
+    <King>King Shan</King>
+  </Country>
+  <Country>
+    <Name>LAND</Name>
+    <Embelem>PANDA</Embelem>
+    <King></King>
+  </Country>
+  <Country>
+    <Name>WATER</Name>
+    <Embelem>OCTOPUS</Embelem>
+    <King></King>
+</Country>
+  <Country>
+    <Name>ICE</Name>
+    <Embelem>MAMMOTH</Embelem>
+    <King></King>
+  </Country>
+  <Country>
+    <Name>AIR</Name>
+    <Embelem>OWL</Embelem>
+    <King></King>
+  </Country>
+  <Country>
+    <Name>FIRE</Name>
+    <Embelem>DRAGON</Embelem>
+    <King></King>
+  </Country>
+</Countries>
