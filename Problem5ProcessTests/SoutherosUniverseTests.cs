@@ -11,11 +11,8 @@ namespace Problem5ProcessTests
         [TestMethod]
         public void WhenAllyNameIsInCamelCaseThenIgnoreCase()
         {
-            //Arrange
-            var process = new SoutherosUniverse();
-
             //Act
-            var got = process.Invasion("space", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("space", new string[]
             {
                 "Air,oaaawaala",
                 "Land,a1d22n333a4444p",
@@ -32,10 +29,10 @@ namespace Problem5ProcessTests
         public void WhenAllyNameIsInLowerCaseThenIgnoreCase()
         {
             //Arrange
-            var process = new SoutherosUniverse();
+            
 
             //Act
-            var got = process.Invasion("space", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("space", new string[]
             {
                 "air,oaaawaala",
                 "land,a1d22n333a4444p",
@@ -52,10 +49,10 @@ namespace Problem5ProcessTests
         public void WhenAllyNameIsInUpperCaseThenIgnoreCase()
         {
             //Arrange
-            var process = new SoutherosUniverse();
+            
 
             //Act
-            var got = process.Invasion("space", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("space", new string[]
             {
                 "AIR,oaaawaala",
                 "LAND,a1d22n333a4444p",
@@ -72,10 +69,10 @@ namespace Problem5ProcessTests
         public void WhenSecretMessageIsInUpperCaseThenIgnoreCase()
         {
             //Arrange
-            var process = new SoutherosUniverse();
+            
 
             //Act
-            var got = process.Invasion("space", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("space", new string[]
             {
                 "Air,oaaawaala".ToUpper(),
                 "Land,a1d22n333a4444p".ToUpper(),
@@ -93,10 +90,10 @@ namespace Problem5ProcessTests
         public void WhenInvalidKingdomAsAlliesThenThrowException()
         {
             //Arrange
-            var process = new SoutherosUniverse();
+            
 
             //Act
-            var got = process.Invasion("space", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("space", new string[]
             {
                 "NOT_A_KINGDOM,oaaawaala",
                 "Land,a1d22n333a4444p",
@@ -109,10 +106,10 @@ namespace Problem5ProcessTests
         public void WhenInvalidInvadorThenThrowException()
         {
             //Arrange
-            var process = new SoutherosUniverse();
+            
 
             //Act
-            var got = process.Invasion("INVALID_INVADOR", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("INVALID_INVADOR", new string[]
             {
                 "NOT_A_KINGDOM,oaaawaala",
                 "Land,a1d22n333a4444p",
@@ -124,10 +121,10 @@ namespace Problem5ProcessTests
         public void WhenWrongSecretMessageThenNoAllies()
         {
             //Arrange
-            var process = new SoutherosUniverse();
+            
 
             //Act
-            var got = process.Invasion("space", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("space", new string[]
             {
                 "Air,osqsls",
                 "Land,a1d22n333a4444p",
@@ -144,10 +141,10 @@ namespace Problem5ProcessTests
         {
 
             //Arrange
-            var process = new SoutherosUniverse();
+            
 
             //Act
-            var got = process.Invasion("space", new string[]
+            var got = SoutherosUniverse.Instance.Invasion("space", new string[]
             {
                 "Air,oaaawaala".ToUpper(),
                 "Air,oaaawaala".ToUpper(),
