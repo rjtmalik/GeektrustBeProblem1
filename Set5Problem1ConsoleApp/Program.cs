@@ -1,5 +1,4 @@
 ﻿using Problem1.Process;
-using SimpleInjector;
 using System;
 using System.Collections.Generic;
 
@@ -27,9 +26,9 @@ namespace Set5Problem1ConsoleApp
                     acceptInput = false;
                 }
             }
+            Console.WriteLine(); //leaving empty space for readability
 
             var result = SoutherosUniverse.Instance.Invasion("space", requests.ToArray());
-
             if (result.Length == 0)
                 Console.WriteLine("NONE");
             else
