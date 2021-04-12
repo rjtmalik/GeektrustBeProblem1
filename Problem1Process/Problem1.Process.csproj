@@ -41,11 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AllianceRequest.cs" />
-    <Compile Include="AllianceResponse.cs" />
-    <Compile Include="AlliesProcess.cs" />
-    <Compile Include="Contracts\IAlliesProcess.cs" />
-    <Compile Include="Country.cs" />
     <Compile Include="Kingdom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SoutherosUniverse.cs" />

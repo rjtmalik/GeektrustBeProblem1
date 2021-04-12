@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Problem1.Process
 {
-    public class Kingdom
+    internal class Kingdom
     {
         public Kingdom(string name, string embelem, string kingName)
         {

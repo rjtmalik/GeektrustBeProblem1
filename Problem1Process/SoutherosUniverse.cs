@@ -5,9 +5,12 @@ using System.Xml;
 
 namespace Problem1.Process
 {
-    public class SoutherosUniverse
+    public sealed class SoutherosUniverse
     {
-        public SoutherosUniverse()
+        public static SoutherosUniverse Instance { get { return lazyInstance.Value; } }
+
+        private static readonly Lazy<SoutherosUniverse> lazyInstance = new Lazy<SoutherosUniverse>(() => new SoutherosUniverse());
+        private SoutherosUniverse()
         {
             _kingdoms = MemorizeAvailableKingdoms();
         }
