@@ -53,10 +53,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Problem1.DomainModel\Problem1.Model.csproj">
-      <Project>{c4b341c4-73f9-4d6f-a1f5-46df1407864c}</Project>
-      <Name>Problem1.Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Problem1Process\Problem1.Process.csproj">
       <Project>{18695d82-7683-4d5b-a701-4426aa620b6d}</Project>
       <Name>Problem1.Process</Name>

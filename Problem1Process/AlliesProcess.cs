@@ -1,10 +1,6 @@
-﻿using Problem1.Process.Contracts;
-using Problem1.Model;
-using System;
+﻿using Problem1.Model;
+using Problem1.Process.Contracts;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Problem1Process
 {

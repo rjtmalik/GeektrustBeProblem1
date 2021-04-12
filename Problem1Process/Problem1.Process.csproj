@@ -41,16 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllianceRequest.cs" />
+    <Compile Include="AllianceResponse.cs" />
     <Compile Include="AlliesProcess.cs" />
     <Compile Include="Contracts\IAlliesProcess.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="Kingdom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoutherosUniverse.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Problem1.DomainModel\Problem1.Model.csproj">
-      <Project>{c4b341c4-73f9-4d6f-a1f5-46df1407864c}</Project>
-      <Name>Problem1.Model</Name>
-    </ProjectReference>
+    <Content Include="Country.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

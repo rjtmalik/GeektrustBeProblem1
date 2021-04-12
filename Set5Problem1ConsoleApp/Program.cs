@@ -22,7 +22,6 @@ namespace Set5Problem1ConsoleApp
 
         static void Main(string[] args)
         {
-            //Console.WriteLine("who is the ruler of Southeros?");
             bool acceptInput = true;
             List<AllianceRequest> requests = new List<AllianceRequest>();
             while (acceptInput)
